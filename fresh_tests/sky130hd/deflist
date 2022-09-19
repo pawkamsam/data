@@ -1,0 +1,6 @@
+./fail/jpeg/jpeg.def
+./fail/riscv32i/riscv32i.def
+./fail/gcd/gcd.def
+./pass/jpeg/jpeg.def
+./pass/riscv32i/riscv32i.def
+./pass/gcd/gcd.def

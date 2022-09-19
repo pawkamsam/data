@@ -1,0 +1,6 @@
+./fail/jpeg/
+./fail/riscv32i/
+./fail/gcd/
+./pass/jpeg/
+./pass/riscv32i/
+./pass/gcd/

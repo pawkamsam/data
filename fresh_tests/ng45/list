@@ -1,0 +1,8 @@
+./fail/jpeg/
+./fail/dynamic_node/
+./fail/tinyRocket/
+./fail/gcd/
+./pass/jpeg/
+./pass/dynamic_node/
+./pass/tinyRocket/
+./pass/gcd/

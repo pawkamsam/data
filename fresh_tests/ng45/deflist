@@ -1,0 +1,8 @@
+./fail/jpeg/jpeg.def
+./fail/dynamic_node/dynamic_node.def
+./fail/tinyRocket/tinyRocket.def
+./fail/gcd/gcd.def
+./pass/jpeg/jpeg.def
+./pass/dynamic_node/dynamic_node.def
+./pass/tinyRocket/tinyRocket.def
+./pass/gcd/gcd.def
