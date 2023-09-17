@@ -1,0 +1,548 @@
+[09/17 04:27:12      0s] 
+[09/17 04:27:12      0s] Cadence Innovus(TM) Implementation System.
+[09/17 04:27:12      0s] Copyright 2021 Cadence Design Systems, Inc. All rights reserved worldwide.
+[09/17 04:27:12      0s] 
+[09/17 04:27:12      0s] Version:	v21.11-s130_1, built Thu Aug 19 16:59:56 PDT 2021
+[09/17 04:27:12      0s] Options:	-no_gui -init final.tcl 
+[09/17 04:27:12      0s] Date:		Sun Sep 17 04:27:12 2023
+[09/17 04:27:12      0s] Host:		redondo-asia-tpe-desktop-pawanekar-0 (x86_64 w/Linux 3.10.0-1160.92.1.0.1.el7.x86_64) (2cores*4cpus*Intel(R) Xeon(R) CPU @ 2.20GHz 56320KB)
+[09/17 04:27:12      0s] OS:		Red Hat Enterprise Linux Server release 7.9 (Maipo)
+[09/17 04:27:12      0s] 
+[09/17 04:27:12      0s] License:
+[09/17 04:27:13      0s] 		[04:27:13.048010] Configured Lic search path (20.02-p002): 5281@prod.licenses.gchips.dev:5281@prod-fsa.licenses.gchips.dev
+
+[09/17 04:27:17      0s] 		invs	Innovus Implementation System	21.1	checkout succeeded
+[09/17 04:27:17      0s] 		Innovus license timeout is activated.
+[09/17 04:27:17      0s] 		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+[09/17 04:28:37     17s] Reset Parastics called with the command setExtractRCMode -reset**WARN: (IMPOPT-801):	Genus executable not found in PATH. Install Genus, add the path to the genus executable in the PATH variable and rerun Innovus.
+[09/17 04:28:43     21s] @(#)CDS: Innovus v21.11-s130_1 (64bit) 08/19/2021 16:59 (Linux 3.10.0-693.el7.x86_64)
+[09/17 04:28:43     21s] @(#)CDS: NanoRoute 21.11-s130_1 NR210811-1832/21_11-UB (database version 18.20.554) {superthreading v2.14}
+[09/17 04:28:43     21s] @(#)CDS: AAE 21.11-s059 (64bit) 08/19/2021 (Linux 3.10.0-693.el7.x86_64)
+[09/17 04:28:43     21s] @(#)CDS: CTE 21.11-s010_1 () Aug 12 2021 04:17:41 ( )
+[09/17 04:28:43     21s] @(#)CDS: SYNTECH 21.11-s003_1 () Aug  4 2021 01:23:26 ( )
+[09/17 04:28:43     21s] @(#)CDS: CPE v21.11-s010
+[09/17 04:28:43     21s] @(#)CDS: IQuantus/TQuantus 20.1.2-s578 (64bit) Fri Jul 9 11:48:16 PDT 2021 (Linux 2.6.32-431.11.2.el6.x86_64)
+[09/17 04:28:43     21s] @(#)CDS: OA 22.60-p059 Mon Jun 28 12:16:29 2021
+[09/17 04:28:43     21s] @(#)CDS: SGN 20.10-d001 (01-Jun-2020) (64 bit executable, Qt5.9.0)
+[09/17 04:28:43     21s] @(#)CDS: RCDB 11.15.0
+[09/17 04:28:43     21s] @(#)CDS: STYLUS 21.11-s001_1 (06/02/2021 03:53 PDT)
+[09/17 04:28:43     21s] Create and set the environment variable TMPDIR to /tmp/innovus_temp_28294_redondo-asia-tpe-desktop-pawanekar-0_pawanekar_1pCroB.
+
+[09/17 04:28:43     21s] The soft stacksize limit is either up to the hard limit or larger than 0.2% of RAM. No change is needed.
+[09/17 04:28:45     23s] 
+[09/17 04:28:45     23s] **INFO:  MMMC transition support version v31-84 
+[09/17 04:28:45     23s] 
+[09/17 04:28:45     23s] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+[09/17 04:28:45     23s] <CMD> suppressMessage ENCEXT-2799
+[09/17 04:28:45     23s] Sourcing file "final.tcl" ...
+[09/17 04:28:45     23s] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+[09/17 04:28:45     23s] <CMD> suppressMessage ENCEXT-2799
+[09/17 04:28:45     23s] <CMD> getVersion
+[09/17 04:28:45     23s] <CMD> getVersion
+[09/17 04:28:45     23s] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+[09/17 04:28:45     23s] <CMD> suppressMessage ENCEXT-2799
+[09/17 04:28:45     23s] <CMD> getVersion
+[09/17 04:28:45     23s] <CMD> getVersion
+[09/17 04:28:45     23s] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+[09/17 04:28:45     23s] <CMD> suppressMessage ENCEXT-2799
+[09/17 04:28:45     23s] <CMD> getVersion
+[09/17 04:28:45     23s] <CMD> getVersion
+[09/17 04:28:45     23s] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+[09/17 04:28:45     23s] <CMD> suppressMessage ENCEXT-2799
+[09/17 04:28:45     23s] <CMD> getVersion
+[09/17 04:28:45     23s] <CMD> getVersion
+[09/17 04:28:45     23s] <CMD> loadLefFile latest_latest.lef
+[09/17 04:28:45     23s] 
+[09/17 04:28:45     23s] Loading LEF file latest_latest.lef ...
+[09/17 04:28:45     23s] **WARN: (IMPLF-184):	The property 'LEF58_MAXWIDTH' on layer 'M1' is ignored because the
+[09/17 04:28:45     23s] syntax is available in native syntax format.
+[09/17 04:28:45     23s] **WARN: (IMPLF-265):	There is SAMEMASK attribute in one or more
+[09/17 04:28:45     23s] rules on layer 'M1' but the layer does not have MASK statement.
+[09/17 04:28:45     23s] The number of mask value is automatically set to 2. To avoid
+[09/17 04:28:45     23s] this warning message, add the MASK statement to the layer using
+[09/17 04:28:45     23s] LEF version 5.8.
+[09/17 04:28:45     23s] **WARN: (IMPLF-265):	There is SAMEMASK attribute in one or more
+[09/17 04:28:45     23s] rules on layer 'V1' but the layer does not have MASK statement.
+[09/17 04:28:45     23s] The number of mask value is automatically set to 2. To avoid
+[09/17 04:28:45     23s] this warning message, add the MASK statement to the layer using
+[09/17 04:28:45     23s] LEF version 5.8.
+[09/17 04:28:45     23s] **WARN: (IMPLF-260):	The CUTCLASS 'Vx' is already defined in layer 'V2' so the second one is ignored.
+[09/17 04:28:45     23s] **WARN: (IMPLF-290):	The ENCLOSURE statement in layer 'V3' has the syntax
+[09/17 04:28:45     23s] for overhang values without END/SIDE keywords but contains CUTCLASS attribute
+[09/17 04:28:45     23s] and the cut defined in the CUTCLASS is rectangular. The new syntax 'END
+[09/17 04:28:45     23s] overhang1 SIDE overhang2' should be used in this case. Without the END/SIDE
+[09/17 04:28:45     23s] keywords, the larger value is assigned as end overhang and smaller value is
+[09/17 04:28:45     23s] assigned as side overhange.
+[09/17 04:28:45     23s] **WARN: (IMPLF-265):	There is SAMEMASK attribute in one or more
+[09/17 04:28:45     23s] rules on layer 'V3' but the layer does not have MASK statement.
+[09/17 04:28:45     23s] The number of mask value is automatically set to 2. To avoid
+[09/17 04:28:45     23s] this warning message, add the MASK statement to the layer using
+[09/17 04:28:45     23s] LEF version 5.8.
+[09/17 04:28:45     23s] **ERROR: (IMPLF-267):	The cut shape in via 'VIA23' does not match the size
+of any cut class in layer 'V2'. It may cause certain commands not working correctly
+in the downstream.
+Set DBUPerIGU to M1 pitch 100.
+[09/17 04:28:53     23s] 	[04:28:53.094562] Periodic Lic check successful
+[04:28:53.094586] Feature usage summary:
+[04:28:53.094587] Innovus_Impl_System
+[04:28:53.094587] Innovus_3nm_Opt
+
+[09/17 04:28:53     23s] This command "loadLefFile latest_latest.lef" required an extra checkout of license invs_3nm.
+[09/17 04:28:53     23s] Additional license(s) checked out: 1 'Innovus_3nm_Opt' license(s)
+[09/17 04:28:53     23s] 
+[09/17 04:28:53     23s] viaInitial starts at Sun Sep 17 04:28:53 2023
+viaInitial ends at Sun Sep 17 04:28:53 2023
+##  Process: 7             (AutoDetect)             
+[09/17 04:28:53     23s] ##     Node: S7            (AutoDetect)         
+[09/17 04:28:53     23s] <CMD> loadLefFile asap7_std_cells.lef
+[09/17 04:28:53     23s] 
+[09/17 04:28:53     23s] Loading LEF file asap7_std_cells.lef ...
+[09/17 04:28:53     23s] ##  Process: 7             (AutoDetect)             
+[09/17 04:28:53     23s] ##     Node: S7            (AutoDetect)         
+[09/17 04:28:53     23s] <CMD> loadDefFile test9991_drouted.def
+[09/17 04:28:53     23s] Creating netlist for top cell: test9991 ...
+[09/17 04:28:53     23s] Reading 1069 COMPONENTS ... 
+[09/17 04:28:53     23s] **WARN: (IMPDFNL-216):	Cannot find cell NAND2x2_ASAP7_75t_L for inst FE_RC_96_0.
+[09/17 04:28:53     23s] **WARN: (IMPDFNL-216):	Cannot find cell AOI211xp5_ASAP7_75t_SRAM for inst g11029.
+[09/17 04:28:53     23s] **WARN: (IMPDFNL-216):	Cannot find cell NAND2xp5_ASAP7_75t_L for inst g11591.
+[09/17 04:28:53     23s] **WARN: (IMPDFNL-216):	Cannot find cell NAND2xp5_ASAP7_75t_L for inst g11685.
+[09/17 04:28:53     23s] **WARN: (IMPDFNL-216):	Cannot find cell INVxp33_ASAP7_75t_SRAM for inst fopt12100.
+[09/17 04:28:53     23s] **WARN: (IMPDFNL-220):	Could not find library cell for 5 out of 1069 components.
+[09/17 04:28:53     23s] Check if all the library cells are loaded into memory.
+[09/17 04:28:53     23s] Done.
+[09/17 04:28:53     23s] Reading 20 PINS ... 
+[09/17 04:28:53     23s] Done.
+[09/17 04:28:53     23s] Reading 2 SPECIALNETS ... 
+[09/17 04:28:53     23s] Done.
+[09/17 04:28:53     23s] Reading 1080 NETS ... 
+[09/17 04:28:53     23s] **WARN: (IMPDFNL-222):	Cannot find inst g11685 (g11685) for net FE_OCPN331_Q7_stage3_domain1.
+[09/17 04:28:53     23s] **WARN: (IMPDFNL-222):	Cannot find inst FE_RC_96_0 (FE_RC_96_0) for net FE_OCPN886_Q7_stage8_domain1.
+[09/17 04:28:53     23s] **WARN: (IMPDFNL-222):	Cannot find inst FE_RC_96_0 (FE_RC_96_0) for net FE_RN_34_0.
+[09/17 04:28:53     23s] **WARN: (IMPDFNL-222):	Cannot find inst g11591 (g11591) for net FE_OCPN295_n_370.
+[09/17 04:28:53     23s] **WARN: (IMPDFNL-222):	Cannot find inst g11029 (g11029) for net FE_OCPN870_Q4_stage9_domain1.
+[09/17 04:28:53     23s] **WARN: (IMPDFNL-222):	Cannot find inst g11029 (g11029) for net FE_OCPN869_Q5_stage9_domain1.
+[09/17 04:28:53     23s] **WARN: (IMPDFNL-222):	Cannot find inst fopt12100 (fopt12100) for net FE_OCPN262_Q1_stage9_domain1.
+[09/17 04:28:53     23s] **WARN: (IMPDFNL-222):	Cannot find inst g11685 (g11685) for net n_285.
+[09/17 04:28:53     23s] **WARN: (IMPDFNL-222):	Cannot find inst g11591 (g11591) for net n_371.
+[09/17 04:28:53     23s] **WARN: (IMPDFNL-222):	Cannot find inst FE_RC_96_0 (FE_RC_96_0) for net n_762.
+[09/17 04:28:53     23s] **WARN: (IMPDFNL-222):	Cannot find inst g11685 (g11685) for net n_834.
+[09/17 04:28:53     23s] **WARN: (IMPDFNL-222):	Cannot find inst g11591 (g11591) for net n_834.
+[09/17 04:28:53     23s] **WARN: (IMPDFNL-222):	Cannot find inst g11029 (g11029) for net n_872.
+[09/17 04:28:53     23s] **WARN: (IMPDFNL-222):	Cannot find inst g11029 (g11029) for net n_875.
+[09/17 04:28:53     23s] **WARN: (IMPDFNL-222):	Cannot find inst g11029 (g11029) for net n_878.
+[09/17 04:28:53     23s] **WARN: (IMPDFNL-222):	Cannot find inst fopt12100 (fopt12100) for net n_949.
+[09/17 04:28:53     23s] **WARN: (IMPDFNL-261):	Could not find 16 terms in 0 out of 1080 nets.
+[09/17 04:28:53     23s] Done.
+[09/17 04:28:53     23s] Setting Std. cell height to 270 DBU (smallest ABS library cell).
+[09/17 04:28:53     23s] *** End DEF_netlist parsing (cpu=0:00:00.1, real=0:00:00.0, mem=6715.9M) ***
+[09/17 04:28:53     23s] Writing Netlist "test9991_drouted.def.v" ...
+[09/17 04:28:53     23s] **WARN: (IMPSYC-6379):	freeDesign cannot completely reset all design states and settings, which would cause ERROR or even crash if user restores a db and edit it right after freeDesign.
+[09/17 04:28:53     23s] All LLGs are deleted
+[09/17 04:28:53     23s] OPERPROF: Starting spSiteCleanup(true) at level 1, MEM:6716.9M, EPOCH TIME: 1694950133.340867
+[09/17 04:28:53     23s] OPERPROF: Finished spSiteCleanup(true) at level 1, CPU:0.000, REAL:0.000, MEM:6716.9M, EPOCH TIME: 1694950133.341359
+[09/17 04:28:53     23s] Free PSO.
+[09/17 04:28:53     23s] Reset Parastics called with the command setExtractRCMode -resetSet DBUPerIGU to 1000.
+[09/17 04:28:53     23s] Set net toggle Scale Factor to 1.00
+[09/17 04:28:53     23s] Set Shrink Factor to 1.00000
+[09/17 04:28:53     23s] Set net toggle Scale Factor to 1.00
+[09/17 04:28:53     23s] Set Shrink Factor to 1.00000
+[09/17 04:28:53     23s] 
+[09/17 04:28:53     23s] *** Memory Usage v#1 (Current mem = 6707.941M, initial mem = 2295.195M) ***
+[09/17 04:28:53     23s] 
+[09/17 04:28:53     23s] 
+[09/17 04:28:53     23s] Info (SM2C): Status of key globals:
+[09/17 04:28:53     23s] 	 MMMC-by-default flow     : 1
+[09/17 04:28:53     23s] 	 Default MMMC objs envvar : 0
+[09/17 04:28:53     23s] 	 Data portability         : 0
+[09/17 04:28:53     23s] 	 MMMC PV Emulation        : 0
+[09/17 04:28:53     23s] 	 MMMC debug               : 0
+[09/17 04:28:53     23s] 	 Init_Design flow         : 1
+[09/17 04:28:53     23s] 
+[09/17 04:28:53     23s] 
+[09/17 04:28:53     23s] 	 CTE SM2C global          : false
+[09/17 04:28:53     23s] 	 Reporting view filter    : false
+[09/17 04:28:53     23s] 
+[09/17 04:28:53     23s] Loading LEF file latest_latest.lef ...
+[09/17 04:28:53     23s] **WARN: (IMPLF-184):	The property 'LEF58_MAXWIDTH' on layer 'M1' is ignored because the
+[09/17 04:28:53     23s] syntax is available in native syntax format.
+[09/17 04:28:53     23s] **WARN: (IMPLF-265):	There is SAMEMASK attribute in one or more
+[09/17 04:28:53     23s] rules on layer 'M1' but the layer does not have MASK statement.
+[09/17 04:28:53     23s] The number of mask value is automatically set to 2. To avoid
+[09/17 04:28:53     23s] this warning message, add the MASK statement to the layer using
+[09/17 04:28:53     23s] LEF version 5.8.
+[09/17 04:28:53     23s] **WARN: (IMPLF-265):	There is SAMEMASK attribute in one or more
+[09/17 04:28:53     23s] rules on layer 'V1' but the layer does not have MASK statement.
+[09/17 04:28:53     23s] The number of mask value is automatically set to 2. To avoid
+[09/17 04:28:53     23s] this warning message, add the MASK statement to the layer using
+[09/17 04:28:53     23s] LEF version 5.8.
+[09/17 04:28:53     23s] **WARN: (IMPLF-260):	The CUTCLASS 'Vx' is already defined in layer 'V2' so the second one is ignored.
+[09/17 04:28:53     23s] **WARN: (IMPLF-290):	The ENCLOSURE statement in layer 'V3' has the syntax
+[09/17 04:28:53     23s] for overhang values without END/SIDE keywords but contains CUTCLASS attribute
+[09/17 04:28:53     23s] and the cut defined in the CUTCLASS is rectangular. The new syntax 'END
+[09/17 04:28:53     23s] overhang1 SIDE overhang2' should be used in this case. Without the END/SIDE
+[09/17 04:28:53     23s] keywords, the larger value is assigned as end overhang and smaller value is
+[09/17 04:28:53     23s] assigned as side overhange.
+[09/17 04:28:53     23s] **WARN: (IMPLF-265):	There is SAMEMASK attribute in one or more
+[09/17 04:28:53     23s] rules on layer 'V3' but the layer does not have MASK statement.
+[09/17 04:28:53     23s] The number of mask value is automatically set to 2. To avoid
+[09/17 04:28:53     23s] this warning message, add the MASK statement to the layer using
+[09/17 04:28:53     23s] LEF version 5.8.
+[09/17 04:28:53     23s] **ERROR: (IMPLF-267):	The cut shape in via 'VIA23' does not match the size
+of any cut class in layer 'V2'. It may cause certain commands not working correctly
+in the downstream.
+
+[09/17 04:28:53     23s] Loading LEF file asap7_std_cells.lef ...
+[09/17 04:28:53     23s] Set DBUPerIGU to M1 pitch 100.
+[09/17 04:28:53     23s] 
+[09/17 04:28:53     23s] viaInitial starts at Sun Sep 17 04:28:53 2023
+viaInitial ends at Sun Sep 17 04:28:53 2023
+##  Process: 7             (AutoDetect)             
+[09/17 04:28:53     23s] ##     Node: S7            (AutoDetect)         
+[09/17 04:28:53     23s] *** End library_loading (cpu=0.00min, mem=1.0M, fe_cpu=0.39min, fe_mem=6708.9M) ***
+[09/17 04:28:53     23s] *** Begin netlist parsing (mem=6708.9M) ***
+[09/17 04:28:53     23s] Created 0 new cells from 0 timing libraries.
+[09/17 04:28:53     23s] Reading netlist ...
+[09/17 04:28:53     23s] Backslashed names will retain backslash and a trailing blank character.
+[09/17 04:28:53     23s] Reading verilog netlist 'test9991_drouted.def.v'
+[09/17 04:28:53     23s] 
+[09/17 04:28:53     23s] *** Memory Usage v#1 (Current mem = 6708.949M, initial mem = 2295.195M) ***
+[09/17 04:28:53     23s] *** End netlist parsing (cpu=0:00:00.0, real=0:00:00.0, mem=6708.9M) ***
+[09/17 04:28:53     23s] Top level cell is test9991.
+[09/17 04:28:53     23s] LoadLibsFirst: dbBindLib
+[09/17 04:28:53     23s] Hooked 0 DB cells to tlib cells.
+[09/17 04:28:53     23s] Ending "BindLib:" (total cpu=0:00:00.0, real=0:00:00.0, peak res=616.7M, current mem=601.0M)
+[09/17 04:28:53     23s] Starting recursive module instantiation check.
+[09/17 04:28:53     23s] No recursion found.
+[09/17 04:28:53     23s] Building hierarchical netlist for Cell test9991 ...
+[09/17 04:28:53     23s] *** Netlist is unique.
+[09/17 04:28:53     23s] Set DBUPerIGU to techSite asap7sc7p5t width 54.
+[09/17 04:28:53     23s] Setting Std. cell height to 270 DBU (smallest netlist inst).
+[09/17 04:28:53     23s] ** info: there are 213 modules.
+[09/17 04:28:53     23s] ** info: there are 1064 stdCell insts.
+[09/17 04:28:53     23s] 
+[09/17 04:28:53     23s] *** Memory Usage v#1 (Current mem = 6712.363M, initial mem = 2295.195M) ***
+[09/17 04:28:53     23s] *info: set bottom ioPad orient R0
+[09/17 04:28:53     23s] 
+[09/17 04:28:53     23s] Honor LEF defined pitches for advanced node
+[09/17 04:28:53     23s] Start create_tracks
+[09/17 04:28:53     23s] Set Using Default Delay Limit as 1000.
+[09/17 04:28:53     23s] Set Default Net Delay as 1000 ps.
+[09/17 04:28:53     23s] Set Default Net Load as 0.5 pF. 
+[09/17 04:28:53     23s] Set Default Input Pin Transition as 0.1 ps.
+[09/17 04:28:54     24s] 
+[09/17 04:28:54     24s] 
+[09/17 04:28:54     24s] Info (SM2C) :  No usable timing libraries were defined in .conf - physical only mode
+[09/17 04:28:54     24s] 
+[09/17 04:28:54     24s] 
+[09/17 04:28:54     24s] !INFO (MMMC):  The design is in physical only mode .
+[09/17 04:28:54     24s] 
+[09/17 04:28:54     24s] 
+[09/17 04:28:54     24s] Reading DEF file 'test9991_drouted.def', current time is Sun Sep 17 04:28:54 2023 ...
+[09/17 04:28:54     24s] --- DIVIDERCHAR '/'
+[09/17 04:28:54     24s] **WARN: (IMPDF-64):	UnitsPerDBU is not unity (you may have rounding problems).
+[09/17 04:28:54     24s] --- UnitsPerDBU = 4.0000
+[09/17 04:28:54     24s] 
+[09/17 04:28:54     24s] Honor LEF defined pitches for advanced node
+[09/17 04:28:54     24s] Start create_tracks
+[09/17 04:28:54     24s] --- DIEAREA (0 0) (116784 116640)
+[09/17 04:28:54     24s] **WARN: (IMPDF-212):	Instance FE_RC_96_0 is not found in db and can't be
+[09/17 04:28:54     24s] created as a physical instance because the cell 'NAND2x2_ASAP7_75t_L' of this
+[09/17 04:28:54     24s] instance is not found in db. Make sure all the lef files/OA database
+[09/17 04:28:54     24s] are specified and loaded properly
+[09/17 04:28:54     24s] **WARN: (IMPDF-212):	Instance g11029 is not found in db and can't be
+[09/17 04:28:54     24s] created as a physical instance because the cell 'AOI211xp5_ASAP7_75t_SRAM' of this
+[09/17 04:28:54     24s] instance is not found in db. Make sure all the lef files/OA database
+[09/17 04:28:54     24s] are specified and loaded properly
+[09/17 04:28:54     24s] **WARN: (IMPDF-212):	Instance g11591 is not found in db and can't be
+[09/17 04:28:54     24s] created as a physical instance because the cell 'NAND2xp5_ASAP7_75t_L' of this
+[09/17 04:28:54     24s] instance is not found in db. Make sure all the lef files/OA database
+[09/17 04:28:54     24s] are specified and loaded properly
+[09/17 04:28:54     24s] **WARN: (IMPDF-212):	Instance g11685 is not found in db and can't be
+[09/17 04:28:54     24s] created as a physical instance because the cell 'NAND2xp5_ASAP7_75t_L' of this
+[09/17 04:28:54     24s] instance is not found in db. Make sure all the lef files/OA database
+[09/17 04:28:54     24s] are specified and loaded properly
+[09/17 04:28:54     24s] **WARN: (IMPDF-212):	Instance fopt12100 is not found in db and can't be
+[09/17 04:28:54     24s] created as a physical instance because the cell 'INVxp33_ASAP7_75t_SRAM' of this
+[09/17 04:28:54     24s] instance is not found in db. Make sure all the lef files/OA database
+[09/17 04:28:54     24s] are specified and loaded properly
+[09/17 04:28:54     24s] Extracting standard cell pins and blockage ...... 
+[09/17 04:28:54     24s] **WARN: (IMPTR-2104):	Layer M1: Pitch=100 is less than min width=72 + min spacing=72.
+[09/17 04:28:54     24s] Temporarily expand pitch on layer M1 from 100 to 200 (2x).
+[09/17 04:28:54     24s] **WARN: (IMPTR-2104):	Layer M10: Pitch=320 is less than min width=160 + min spacing=8000.
+[09/17 04:28:54     24s] Temporarily expand pitch on layer M10 from 320 to 2880 (9x).
+[09/17 04:28:54     24s] **ERROR: (IMPTR-2101):	Layer M10: Pitch=2880x9 is still less than min width=8000 + min spacing=160.
+**WARN: (IMPTR-2108):	For layer M10, the gaps of 302 out of 302 tracks are narrower than 8.160um (space 8.000 + width 0.160).
+[09/17 04:28:54     24s] Type 'man IMPTR-2108' for more detail.
+[09/17 04:28:54     24s]  As a result, your trialRoute congestion could be incorrect.
+[09/17 04:28:54     24s] Pin and blockage extraction finished
+[09/17 04:28:54     24s] Extracting macro/IO cell pins and blockage ...... 
+[09/17 04:28:54     24s] Pin and blockage extraction finished
+[09/17 04:28:54     24s] **ERROR: (IMPDF-138):	The component pin ( g11685 B ) cannot be found in the netlist. This means that any associated pin properties are lost and any routing for the attached net is incorrect. To resolve the issue, read in a DEF that matches the current netlist. If the mismatch is expected, verify that the loss of pin property information is okay and repair any incorrect routing later in the flow.
+Type 'man IMPDF-138' for more detail.
+[09/17 04:28:54     24s] **ERROR: (IMPDF-138):	The component pin ( FE_RC_96_0 B ) cannot be found in the netlist. This means that any associated pin properties are lost and any routing for the attached net is incorrect. To resolve the issue, read in a DEF that matches the current netlist. If the mismatch is expected, verify that the loss of pin property information is okay and repair any incorrect routing later in the flow.
+Type 'man IMPDF-138' for more detail.
+[09/17 04:28:54     24s] **ERROR: (IMPDF-138):	The component pin ( FE_RC_96_0 A ) cannot be found in the netlist. This means that any associated pin properties are lost and any routing for the attached net is incorrect. To resolve the issue, read in a DEF that matches the current netlist. If the mismatch is expected, verify that the loss of pin property information is okay and repair any incorrect routing later in the flow.
+Type 'man IMPDF-138' for more detail.
+[09/17 04:28:54     24s] **ERROR: (IMPDF-138):	The component pin ( g11591 B ) cannot be found in the netlist. This means that any associated pin properties are lost and any routing for the attached net is incorrect. To resolve the issue, read in a DEF that matches the current netlist. If the mismatch is expected, verify that the loss of pin property information is okay and repair any incorrect routing later in the flow.
+Type 'man IMPDF-138' for more detail.
+[09/17 04:28:54     24s] **ERROR: (IMPDF-138):	The component pin ( g11029 A2 ) cannot be found in the netlist. This means that any associated pin properties are lost and any routing for the attached net is incorrect. To resolve the issue, read in a DEF that matches the current netlist. If the mismatch is expected, verify that the loss of pin property information is okay and repair any incorrect routing later in the flow.
+Type 'man IMPDF-138' for more detail.
+[09/17 04:28:54     24s] **ERROR: (IMPDF-138):	The component pin ( g11029 A1 ) cannot be found in the netlist. This means that any associated pin properties are lost and any routing for the attached net is incorrect. To resolve the issue, read in a DEF that matches the current netlist. If the mismatch is expected, verify that the loss of pin property information is okay and repair any incorrect routing later in the flow.
+Type 'man IMPDF-138' for more detail.
+[09/17 04:28:54     24s] **ERROR: (IMPDF-138):	The component pin ( fopt12100 A ) cannot be found in the netlist. This means that any associated pin properties are lost and any routing for the attached net is incorrect. To resolve the issue, read in a DEF that matches the current netlist. If the mismatch is expected, verify that the loss of pin property information is okay and repair any incorrect routing later in the flow.
+Type 'man IMPDF-138' for more detail.
+[09/17 04:28:54     24s] defIn read 10000 lines...
+[09/17 04:28:54     24s] **ERROR: (IMPDF-138):	The component pin ( g11685 Y ) cannot be found in the netlist. This means that any associated pin properties are lost and any routing for the attached net is incorrect. To resolve the issue, read in a DEF that matches the current netlist. If the mismatch is expected, verify that the loss of pin property information is okay and repair any incorrect routing later in the flow.
+Type 'man IMPDF-138' for more detail.
+[09/17 04:28:54     24s] **ERROR: (IMPDF-138):	The component pin ( g11591 Y ) cannot be found in the netlist. This means that any associated pin properties are lost and any routing for the attached net is incorrect. To resolve the issue, read in a DEF that matches the current netlist. If the mismatch is expected, verify that the loss of pin property information is okay and repair any incorrect routing later in the flow.
+Type 'man IMPDF-138' for more detail.
+[09/17 04:28:54     24s] defIn read 20000 lines...
+[09/17 04:28:54     24s] **ERROR: (IMPDF-138):	The component pin ( FE_RC_96_0 Y ) cannot be found in the netlist. This means that any associated pin properties are lost and any routing for the attached net is incorrect. To resolve the issue, read in a DEF that matches the current netlist. If the mismatch is expected, verify that the loss of pin property information is okay and repair any incorrect routing later in the flow.
+Type 'man IMPDF-138' for more detail.
+[09/17 04:28:54     24s] **ERROR: (IMPDF-138):	The component pin ( g11685 A ) cannot be found in the netlist. This means that any associated pin properties are lost and any routing for the attached net is incorrect. To resolve the issue, read in a DEF that matches the current netlist. If the mismatch is expected, verify that the loss of pin property information is okay and repair any incorrect routing later in the flow.
+Type 'man IMPDF-138' for more detail.
+[09/17 04:28:54     24s] **ERROR: (IMPDF-138):	The component pin ( g11591 A ) cannot be found in the netlist. This means that any associated pin properties are lost and any routing for the attached net is incorrect. To resolve the issue, read in a DEF that matches the current netlist. If the mismatch is expected, verify that the loss of pin property information is okay and repair any incorrect routing later in the flow.
+Type 'man IMPDF-138' for more detail.
+[09/17 04:28:54     24s] **ERROR: (IMPDF-138):	The component pin ( g11029 C ) cannot be found in the netlist. This means that any associated pin properties are lost and any routing for the attached net is incorrect. To resolve the issue, read in a DEF that matches the current netlist. If the mismatch is expected, verify that the loss of pin property information is okay and repair any incorrect routing later in the flow.
+Type 'man IMPDF-138' for more detail.
+[09/17 04:28:54     24s] **ERROR: (IMPDF-138):	The component pin ( g11029 B ) cannot be found in the netlist. This means that any associated pin properties are lost and any routing for the attached net is incorrect. To resolve the issue, read in a DEF that matches the current netlist. If the mismatch is expected, verify that the loss of pin property information is okay and repair any incorrect routing later in the flow.
+Type 'man IMPDF-138' for more detail.
+[09/17 04:28:54     24s] **ERROR: (IMPDF-138):	The component pin ( g11029 Y ) cannot be found in the netlist. This means that any associated pin properties are lost and any routing for the attached net is incorrect. To resolve the issue, read in a DEF that matches the current netlist. If the mismatch is expected, verify that the loss of pin property information is okay and repair any incorrect routing later in the flow.
+Type 'man IMPDF-138' for more detail.
+[09/17 04:28:54     24s] **ERROR: (IMPDF-138):	The component pin ( fopt12100 Y ) cannot be found in the netlist. This means that any associated pin properties are lost and any routing for the attached net is incorrect. To resolve the issue, read in a DEF that matches the current netlist. If the mismatch is expected, verify that the loss of pin property information is okay and repair any incorrect routing later in the flow.
+Type 'man IMPDF-138' for more detail.
+[09/17 04:28:54     24s] DEF file 'test9991_drouted.def' is parsed, current time is Sun Sep 17 04:28:54 2023.
+[09/17 04:28:54     24s] **WARN: (IMPTR-2104):	Layer M1: Pitch=100 is less than min width=72 + min spacing=72.
+[09/17 04:28:54     24s] Temporarily expand pitch on layer M1 from 100 to 200 (2x).
+[09/17 04:28:54     24s] **WARN: (IMPTR-2104):	Layer M10: Pitch=320 is less than min width=160 + min spacing=8000.
+[09/17 04:28:54     24s] Temporarily expand pitch on layer M10 from 320 to 2880 (9x).
+[09/17 04:28:54     24s] **ERROR: (IMPTR-2101):	Layer M10: Pitch=2880x9 is still less than min width=8000 + min spacing=160.
+**WARN: (IMPTR-2108):	For layer M10, the gaps of 302 out of 302 tracks are narrower than 8.160um (space 8.000 + width 0.160).
+[09/17 04:28:54     24s] Type 'man IMPTR-2108' for more detail.
+[09/17 04:28:54     24s]  As a result, your trialRoute congestion could be incorrect.
+[09/17 04:28:54     24s] Updating the floorplan ...
+[09/17 04:28:54     24s] <CMD> setPreference DesignName test9991
+[09/17 04:28:54     24s] <CMD> get_verify_drc_mode -disable_rules -quiet
+[09/17 04:28:54     24s] <CMD> get_verify_drc_mode -quiet -area
+[09/17 04:28:54     24s] <CMD> get_verify_drc_mode -quiet -layer_range
+[09/17 04:28:54     24s] <CMD> get_verify_drc_mode -check_ndr_spacing -quiet
+[09/17 04:28:54     24s] <CMD> get_verify_drc_mode -check_only -quiet
+[09/17 04:28:54     24s] <CMD> get_verify_drc_mode -check_same_via_cell -quiet
+[09/17 04:28:54     24s] <CMD> get_verify_drc_mode -exclude_pg_net -quiet
+[09/17 04:28:54     24s] <CMD> get_verify_drc_mode -ignore_trial_route -quiet
+[09/17 04:28:54     24s] <CMD> get_verify_drc_mode -max_wrong_way_halo -quiet
+[09/17 04:28:54     24s] <CMD> get_verify_drc_mode -use_min_spacing_on_block_obs -quiet
+[09/17 04:28:54     24s] <CMD> get_verify_drc_mode -limit -quiet
+[09/17 04:28:54     24s] <CMD> set_verify_drc_mode -disable_rules {} -check_ndr_spacing auto -check_only default -check_same_via_cell false -exclude_pg_net false -ignore_trial_route false -ignore_cell_blockage false -use_min_spacing_on_block_obs auto -report test9991.drc.new.rpt -limit 1000000
+[09/17 04:28:54     24s] <CMD> verify_drc
+[09/17 04:28:54     24s] #-limit 1000000                          # int, default=1000000, user setting
+[09/17 04:28:54     24s] #-check_ndr_spacing auto                 # enums={true false auto}, default=auto,  user setting
+[09/17 04:28:54     24s] #-report test9991.drc.new.rpt            # string, default="", user setting
+[09/17 04:28:54     24s]  *** Starting Verify DRC (MEM: 6943.0) ***
+[09/17 04:28:54     24s] 
+[09/17 04:28:54     24s] #create default rule from bind_ndr_rule rule=0x7f6554e53710 0x7f65469cc018
+[09/17 04:28:54     24s] #WARNING (NRDB-2012) The ENCLOSURE statement in layer V3 has the syntax for overhang values without END/SIDE keywords but contains CUTCLASS attribute and the cut defined in the CUTCLASS is rectangular. The new syntax 'END overhang1 SIDE overhang2' must be used in this case. Without the END/SIDE keywords, the larger value is assigned as end overhang and smaller value is assigned as side overhang. 
+[09/17 04:28:54     24s] #WARNING (NRDB-2012) The ENCLOSURE statement in layer V3 has the syntax for overhang values without END/SIDE keywords but contains CUTCLASS attribute and the cut defined in the CUTCLASS is rectangular. The new syntax 'END overhang1 SIDE overhang2' must be used in this case. Without the END/SIDE keywords, the larger value is assigned as end overhang and smaller value is assigned as side overhang. 
+[09/17 04:28:54     24s] #WARNING (NRDB-2012) The ENCLOSURE statement in layer V5 has the syntax for overhang values without END/SIDE keywords but contains CUTCLASS attribute and the cut defined in the CUTCLASS is rectangular. The new syntax 'END overhang1 SIDE overhang2' must be used in this case. Without the END/SIDE keywords, the larger value is assigned as end overhang and smaller value is assigned as side overhang. 
+[09/17 04:28:54     24s] #WARNING (NRFL-369) Ignoring MINIMUMCUT rules with number of cuts less than 2.
+[09/17 04:28:54     24s] #WARNING (NRFL-369) Ignoring MINIMUMCUT rules with number of cuts less than 2.
+[09/17 04:28:54     24s] #WARNING (NRDB-944) The cut shape in VIA VIA23 doesn't match any predefined cut dimension. Only the cuts that are defined in CUTCLASS can be used in VIA definition. Please fix the VIA statement in LEF and try again. NR will continue with possible missed or false violations.
+[09/17 04:28:54     24s] #WARNING (NRDB-407) pitch for LAYER M1 is defined too small, reset to 200
+[09/17 04:28:54     24s] #WARNING (NRDB-407) pitch for LAYER Pad is defined too small, reset to 640
+[09/17 04:28:54     24s] #WARNING (NRDB-2203) Layer M1 MASK is set to 2 but does not have SAMEMASK rules, will reset to single mask.
+[09/17 04:28:54     24s] ### import design signature (1): route=1 fixed_route=1 flt_obj=0 vio=1905142130 swire=1 shield_wire=1 net_attr=1 dirty_area=0 del_dirty_area=0 cell=0 placement=0 pin_access=1 inst_pattern=1
+[09/17 04:28:54     24s] #.
+[09/17 04:28:54     24s]   VERIFY DRC ...... Starting Verification
+[09/17 04:28:54     24s]   VERIFY DRC ...... Initializing
+[09/17 04:28:54     24s]   VERIFY DRC ...... Deleting Existing Violations
+[09/17 04:28:54     24s]   VERIFY DRC ...... Creating Sub-Areas
+[09/17 04:28:54     24s]   VERIFY DRC ...... Using new threading
+[09/17 04:28:54     24s]   VERIFY DRC ...... Sub-Area: {0.000 0.000 58.752 58.752} 1 of 4
+[09/17 04:29:00     30s]   VERIFY DRC ...... Sub-Area : 1 complete 107177 Viols.
+[09/17 04:29:00     30s]   VERIFY DRC ...... Sub-Area: {58.752 0.000 116.784 58.752} 2 of 4
+[09/17 04:29:02     33s]   VERIFY DRC ...... Sub-Area : 2 complete 10 Viols.
+[09/17 04:29:02     33s]   VERIFY DRC ...... Sub-Area: {0.000 58.752 58.752 116.640} 3 of 4
+[09/17 04:29:04     34s]   VERIFY DRC ...... Sub-Area : 3 complete 2 Viols.
+[09/17 04:29:04     34s]   VERIFY DRC ...... Sub-Area: {58.752 58.752 116.784 116.640} 4 of 4
+[09/17 04:29:06     36s]   VERIFY DRC ...... Sub-Area : 4 complete 0 Viols.
+[09/17 04:29:06     36s] 
+[09/17 04:29:06     36s]   Verification Complete : 107189 Viols.
+[09/17 04:29:06     36s] 
+[09/17 04:29:07     37s]  Violation Summary By Layer and Type:
+[09/17 04:29:07     37s] 
+[09/17 04:29:07     37s] 	         EolExt   MetSpc    EolKO    SLTbl     Rect   CorSpc   MinStp   Others   Totals
+[09/17 04:29:07     37s] 	M1        23067     9587    11057     9600     8736     7672     7953     4083    81755
+[09/17 04:29:07     37s] 	V1            0        0        0        0        0        0        0     3935     3935
+[09/17 04:29:07     37s] 	M2            0     1372        0        0       31      200        0     3844     5447
+[09/17 04:29:07     37s] 	V2            0        0        0        0        0        0        0     5621     5621
+[09/17 04:29:07     37s] 	M3            0      861      151        0       28      125        0     1829     2994
+[09/17 04:29:07     37s] 	V3            0        0        0        0        0        0        0     4098     4098
+[09/17 04:29:07     37s] 	M4            0      256      671        0        0      248        0      962     2137
+[09/17 04:29:07     37s] 	V4            0        0        0        0        0        0        0      327      327
+[09/17 04:29:07     37s] 	M5            0       84       24        0        0       31        0      215      354
+[09/17 04:29:07     37s] 	V5            0        0        0        0        0        0        0      266      266
+[09/17 04:29:07     37s] 	M6            0       33        1        0        0        0        0        4       38
+[09/17 04:29:07     37s] 	V6            0        0        0        0        0        0        0        1        1
+[09/17 04:29:07     37s] 	M7            0        6        4        0        0        0        0       10       20
+[09/17 04:29:07     37s] 	V7            0        0        0        0        0        0        0        1        1
+[09/17 04:29:07     37s] 	M8            0       21        0        0        0        0       51       84      156
+[09/17 04:29:07     37s] 	V8            0        0        0        0        0        0        0        2        2
+[09/17 04:29:07     37s] 	M9            0        8        0        0        0        0        4       23       35
+[09/17 04:29:07     37s] 	Pad           0        2        0        0        0        0        0        0        2
+[09/17 04:29:07     37s] 	Totals    23067    12230    11908     9600     8795     8276     8008    25305   107189
+[09/17 04:29:07     37s] 
+[09/17 04:29:07     37s]  *** End Verify DRC (CPU: 0:00:13.0  ELAPSED TIME: 12.00  MEM: 1035.0M) ***
+[09/17 04:29:07     37s] 
+[09/17 04:29:07     37s] <CMD> verifyConnectivity -type all -connLoop -append -dividePowerNet -rawViolsMark -useNewOpenVio -removeOldOpenVio -useVirtualConnection -error 1000000 -warning 50000
+[09/17 04:29:07     37s] VERIFY_CONNECTIVITY use new engine.
+[09/17 04:29:07     37s] 
+[09/17 04:29:07     37s] ******** Start: VERIFY CONNECTIVITY ********
+[09/17 04:29:07     37s] Start Time: Sun Sep 17 04:29:07 2023
+[09/17 04:29:07     37s] 
+[09/17 04:29:07     37s] Design Name: test9991
+[09/17 04:29:07     37s] Database Units: 1000
+[09/17 04:29:07     37s] Design Boundary: (0.0000, 0.0000) (116.7840, 116.6400)
+[09/17 04:29:07     37s] Error Limit = 1000000; Warning Limit = 50000
+[09/17 04:29:07     37s] Check all nets
+[09/17 04:29:07     37s] **WARN: (IMPVFC-97):	IO pin rst of net rst has not been assigned. Please make sure it is assigned and rerun verifyConnectivity.
+[09/17 04:29:07     37s] **WARN: (IMPVFC-97):	IO pin out9_domain1 of net out9_domain1 has not been assigned. Please make sure it is assigned and rerun verifyConnectivity.
+[09/17 04:29:07     37s] **WARN: (IMPVFC-97):	IO pin out8_domain1 of net out8_domain1 has not been assigned. Please make sure it is assigned and rerun verifyConnectivity.
+[09/17 04:29:07     37s] **WARN: (IMPVFC-97):	IO pin out7_domain1 of net out7_domain1 has not been assigned. Please make sure it is assigned and rerun verifyConnectivity.
+[09/17 04:29:07     37s] **WARN: (IMPVFC-97):	IO pin out6_domain1 of net out6_domain1 has not been assigned. Please make sure it is assigned and rerun verifyConnectivity.
+[09/17 04:29:07     37s] **WARN: (IMPVFC-97):	IO pin out5_domain1 of net out5_domain1 has not been assigned. Please make sure it is assigned and rerun verifyConnectivity.
+[09/17 04:29:07     37s] **WARN: (IMPVFC-97):	IO pin out4_domain1 of net out4_domain1 has not been assigned. Please make sure it is assigned and rerun verifyConnectivity.
+[09/17 04:29:07     37s] **WARN: (IMPVFC-97):	IO pin out3_domain1 of net out3_domain1 has not been assigned. Please make sure it is assigned and rerun verifyConnectivity.
+[09/17 04:29:07     37s] **WARN: (IMPVFC-97):	IO pin out2_domain1 of net out2_domain1 has not been assigned. Please make sure it is assigned and rerun verifyConnectivity.
+[09/17 04:29:07     37s] **WARN: (IMPVFC-97):	IO pin out1_domain1 of net out1_domain1 has not been assigned. Please make sure it is assigned and rerun verifyConnectivity.
+[09/17 04:29:07     37s] **WARN: (IMPVFC-97):	IO pin in9_domain1 of net in9_domain1 has not been assigned. Please make sure it is assigned and rerun verifyConnectivity.
+[09/17 04:29:07     37s] **WARN: (IMPVFC-97):	IO pin in8_domain1 of net in8_domain1 has not been assigned. Please make sure it is assigned and rerun verifyConnectivity.
+[09/17 04:29:07     37s] **WARN: (IMPVFC-97):	IO pin in7_domain1 of net in7_domain1 has not been assigned. Please make sure it is assigned and rerun verifyConnectivity.
+[09/17 04:29:07     37s] **WARN: (IMPVFC-97):	IO pin in6_domain1 of net in6_domain1 has not been assigned. Please make sure it is assigned and rerun verifyConnectivity.
+[09/17 04:29:07     37s] **WARN: (IMPVFC-97):	IO pin in5_domain1 of net in5_domain1 has not been assigned. Please make sure it is assigned and rerun verifyConnectivity.
+[09/17 04:29:07     37s] **WARN: (IMPVFC-97):	IO pin in4_domain1 of net in4_domain1 has not been assigned. Please make sure it is assigned and rerun verifyConnectivity.
+[09/17 04:29:07     37s] **WARN: (IMPVFC-97):	IO pin in3_domain1 of net in3_domain1 has not been assigned. Please make sure it is assigned and rerun verifyConnectivity.
+[09/17 04:29:07     37s] **WARN: (IMPVFC-97):	IO pin in2_domain1 of net in2_domain1 has not been assigned. Please make sure it is assigned and rerun verifyConnectivity.
+[09/17 04:29:07     37s] **WARN: (IMPVFC-97):	IO pin in1_domain1 of net in1_domain1 has not been assigned. Please make sure it is assigned and rerun verifyConnectivity.
+[09/17 04:29:07     37s] **WARN: (IMPVFC-97):	IO pin clk1 of net clk1 has not been assigned. Please make sure it is assigned and rerun verifyConnectivity.
+[09/17 04:29:07     37s] Net clk1: dangling Wire.
+[09/17 04:29:07     37s] Net n_949: dangling Wire.
+[09/17 04:29:07     37s] Net n_878: dangling Wire.
+[09/17 04:29:07     37s] Net n_875: dangling Wire.
+[09/17 04:29:07     37s] Net n_872: dangling Wire.
+[09/17 04:29:07     37s] Net n_834: dangling Wire.
+[09/17 04:29:07     37s] Net n_762: dangling Wire.
+[09/17 04:29:07     37s] Net n_371: dangling Wire.
+[09/17 04:29:07     37s] Net n_285: dangling Wire.
+[09/17 04:29:07     37s] Net FE_OCPN262_Q1_stage9_domain1: dangling Wire.
+[09/17 04:29:07     37s] Net FE_OCPN869_Q5_stage9_domain1: dangling Wire.
+[09/17 04:29:07     37s] Net FE_OCPN870_Q4_stage9_domain1: dangling Wire.
+[09/17 04:29:07     37s] Net FE_OCPN295_n_370: dangling Wire.
+[09/17 04:29:07     37s] Net FE_RN_34_0: dangling Wire.
+[09/17 04:29:07     37s] Net FE_OCPN886_Q7_stage8_domain1: dangling Wire.
+[09/17 04:29:07     37s] Net FE_OCPN331_Q7_stage3_domain1: dangling Wire.
+[09/17 04:29:07     37s] Processing Net vss in divided mode.
+[09/17 04:29:07     37s] Checking area[0][0]...
+[09/17 04:29:07     37s] Processing Net vdd in divided mode.
+[09/17 04:29:07     37s] Checking area[0][0]...
+[09/17 04:29:07     37s] 
+[09/17 04:29:07     37s] Begin Summary 
+[09/17 04:29:07     37s]     55 Problem(s) (IMPVFC-94): The net has dangling wire(s).
+[09/17 04:29:07     37s]     55 total info(s) created.
+[09/17 04:29:07     37s] End Summary
+[09/17 04:29:07     37s] 
+[09/17 04:29:07     37s] End Time: Sun Sep 17 04:29:07 2023
+[09/17 04:29:07     37s] Time Elapsed: 0:00:00.0
+[09/17 04:29:07     37s] 
+[09/17 04:29:07     37s] ******** End: VERIFY CONNECTIVITY ********
+[09/17 04:29:07     37s]   Verification Complete : 55 Viols.  0 Wrngs.
+[09/17 04:29:07     37s]   (CPU Time: 0:00:00.1  MEM: 0.000M)
+[09/17 04:29:07     37s] 
+[09/17 04:29:07     37s] <CMD> verifyProcessAntenna -report test9991.antenna.rpt -error 1000000
+[09/17 04:29:07     37s] **ERROR: (IMPVPA-22):	verifyProcessAntenna failed to run because no process antenna information found for this design. Import the process antenna library data and run verifyProcessAntenna again.
+Type 'man IMPVPA-22' for more detail.
+[09/17 04:29:07     37s] <CMD> verifyACLimit -report test9991.aclimit.rpt -toggle 1.0 -error 1000000
+[09/17 04:29:07     37s] 
+[09/17 04:29:07     37s] ******** Start: verifyACLimit ********
+[09/17 04:29:07     37s] Start Time: Sun Sep 17 04:29:07 2023
+[09/17 04:29:07     37s] 
+[09/17 04:29:07     37s] **ERROR: Fail to get default view. Please check the design...
+[09/17 04:29:07     37s] **ERROR: (IMPVAC-1):	verifyACLimit FAILED.
+
+[09/17 04:29:07     37s] End Time: Sun Sep 17 04:29:07 2023
+[09/17 04:29:07     37s] ******** End: verifyACLimit ********
+[09/17 04:29:07     37s]   (CPU Time: 0:00:00.0  MEM: 0.160M)
+[09/17 04:29:07     37s] 
+[09/17 04:29:07     37s] <CMD> verifyEndCap -tripleWell -wrongLocation -report test9991.endcap.rpt -error 1000000
+[09/17 04:29:07     37s] 
+[09/17 04:29:07     37s] ******Begin verifyEndCap******
+[09/17 04:29:07     37s] **ERROR: (IMPVFW-405):	There is no specified end cap cell type for verifyEndCap. Use setEndCapMode to specify the end cap cell types.
+******End verifyEndCap******
+[09/17 04:29:07     37s] **WARN: (IMPVFW-5):	verifyEndCap is not completed.
+[09/17 04:29:07     37s] <CMD> setMetalFill -layer M1 -windowSize 100.000 100.000 -windowStep 50.000 50.000 -minDensity 20.000 -maxDensity 80.000
+[09/17 04:29:07     37s] <CMD> setMetalFill -layer M2 -windowSize 100.000 100.000 -windowStep 50.000 50.000 -minDensity 20.000 -maxDensity 80.000
+[09/17 04:29:07     37s] <CMD> setMetalFill -layer M3 -windowSize 100.000 100.000 -windowStep 50.000 50.000 -minDensity 20.000 -maxDensity 80.000
+[09/17 04:29:07     37s] <CMD> setMetalFill -layer M4 -windowSize 100.000 100.000 -windowStep 50.000 50.000 -minDensity 20.000 -maxDensity 80.000
+[09/17 04:29:07     37s] <CMD> setMetalFill -layer M5 -windowSize 80.000 80.000 -windowStep 40.000 40.000 -minDensity 60.000 -maxDensity 80.000
+[09/17 04:29:07     37s] <CMD> setViaFill -layer V1 -windowSize 10.000 10.000 -windowStep 5.000 5.000 -minDensity 0.00 -maxDensity 30.00
+[09/17 04:29:07     37s] <CMD> setViaFill -layer V2 -windowSize 10.000 10.000 -windowStep 5.000 5.000 -minDensity 0.00 -maxDensity 30.00
+[09/17 04:29:07     37s] <CMD> setViaFill -layer V3 -windowSize 10.000 10.000 -windowStep 5.000 5.000 -minDensity 0.00 -maxDensity 30.00
+[09/17 04:29:07     37s] <CMD> setViaFill -layer V4 -windowSize 10.000 10.000 -windowStep 5.000 5.000 -minDensity 0.00 -maxDensity 30.00
+[09/17 04:29:07     37s] <CMD> setViaFill -layer V5 -windowSize 10.000 10.000 -windowStep 5.000 5.000 -minDensity 0.00 -maxDensity 30.00
+[09/17 04:29:07     37s] <CMD> setViaFill -layer V6 -windowSize 10.000 10.000 -windowStep 5.000 5.000 -minDensity 0.00 -maxDensity 30.00
+[09/17 04:29:07     37s] <CMD> setViaFill -layer V7 -windowSize 10.000 10.000 -windowStep 5.000 5.000 -minDensity 0.00 -maxDensity 30.00
+[09/17 04:29:07     37s] <CMD> setViaFill -layer V8 -windowSize 10.000 10.000 -windowStep 5.000 5.000 -minDensity 0.00 -maxDensity 30.00
+[09/17 04:29:07     37s] <CMD> setViaFill -layer V9 -windowSize 10.000 10.000 -windowStep 5.000 5.000 -minDensity 0.00 -maxDensity 30.00
+[09/17 04:29:07     37s] <CMD> verifyCutDensity -detailed -globalDensity
+[09/17 04:29:07     37s] 
+[09/17 04:29:07     37s] ******** Start: VERIFY CUT DENSITY ********
+[09/17 04:29:07     37s] **WARN: (IMPVMD-84):	Maximum window density for layer "V0" is missing. Using default value 30.0.
+[09/17 04:29:07     37s] **WARN: (IMPVMD-83):	Minimum window density for layer "V0" is missing. Using default value 0.000000.
+[09/17 04:29:07     37s] **WARN: (IMPVMD-85):	Window size (width) for layer "V0" is missing. Using default value 10.
+[09/17 04:29:07     37s] **WARN: (IMPVMD-86):	Window size (height) for layer "V0" is missing. Using default value 10.
+[09/17 04:29:07     37s] **WARN: (IMPVMD-87):	Window step (horizontal) for layer "V0" is missing. Using default value 5.
+[09/17 04:29:07     37s] **WARN: (IMPVMD-88):	Window step (vertical) for layer "V0" is missing. Using default value 5.
+[09/17 04:29:07     37s] ***
+[09/17 04:29:07     37s] 
+[09/17 04:29:07     37s] No density violations were found.
+[09/17 04:29:07     37s] 
+[09/17 04:29:07     37s] ******** End: VERIFY CUT DENSITY ********
+[09/17 04:29:07     37s] VCD: elapsed time: 0.00
+[09/17 04:29:07     37s]      (CPU Time: 0:00:00.0  MEM: 0.000M)
+[09/17 04:29:07     37s] 
+[09/17 04:29:07     37s] <CMD> violationBrowserReport
+[09/17 04:29:49     64s] 
+[09/17 04:29:49     64s] *** Memory Usage v#1 (Current mem = 9381.984M, initial mem = 2295.195M) ***
+[09/17 04:29:49     64s] 
+[09/17 04:29:49     64s] *** Summary of all messages that are not suppressed in this session:
+[09/17 04:29:49     64s] Severity  ID               Count  Summary                                  
+[09/17 04:29:49     64s] ERROR     IMPDF-138           16  The component pin ( %s %s ) cannot be fo...
+[09/17 04:29:49     64s] WARNING   IMPDF-64             1  UnitsPerDBU is not unity (you may have r...
+[09/17 04:29:49     64s] WARNING   IMPDF-212            5  Instance %s is not found in db and can't...
+[09/17 04:29:49     64s] WARNING   IMPDFNL-261          1  Could not find %d terms in %d out of %d ...
+[09/17 04:29:49     64s] WARNING   IMPDFNL-216          5  Cannot find cell %s for inst %s.         
+[09/17 04:29:49     64s] WARNING   IMPDFNL-220          1  Could not find library cell for %d out o...
+[09/17 04:29:49     64s] WARNING   IMPDFNL-222         16  Cannot find inst %s (%s) for net %s.     
+[09/17 04:29:49     64s] WARNING   IMPLF-260            2  The CUTCLASS '%s' is already defined in ...
+[09/17 04:29:49     64s] WARNING   IMPLF-265            6  There is SAMEMASK attribute in one or mo...
+[09/17 04:29:49     64s] ERROR     IMPLF-267            2  The cut shape in via '%s' does not match...
+[09/17 04:29:49     64s] WARNING   IMPLF-290            2  The ENCLOSURE statement in layer '%s' ha...
+[09/17 04:29:49     64s] WARNING   IMPLF-184            2  The property '%s' on layer '%s' is ignor...
+[09/17 04:29:49     64s] WARNING   IMPSYC-6379          1  freeDesign cannot completely reset all d...
+[09/17 04:29:49     64s] ERROR     IMPVPA-22            1  verifyProcessAntenna failed to run becau...
+[09/17 04:29:49     64s] WARNING   IMPVFC-97           20  IO pin %s of net %s has not been assigne...
+[09/17 04:29:49     64s] WARNING   IMPVMD-83            1  Minimum window density for layer "%s" is...
+[09/17 04:29:49     64s] WARNING   IMPVMD-84            1  Maximum window density for layer "%s" is...
+[09/17 04:29:49     64s] WARNING   IMPVMD-85            1  Window size (width) for layer "%s" is mi...
+[09/17 04:29:49     64s] WARNING   IMPVMD-86            1  Window size (height) for layer "%s" is m...
+[09/17 04:29:49     64s] WARNING   IMPVMD-87            1  Window step (horizontal) for layer "%s" ...
+[09/17 04:29:49     64s] WARNING   IMPVMD-88            1  Window step (vertical) for layer "%s" is...
+[09/17 04:29:49     64s] ERROR     IMPVAC-1             1  verifyACLimit FAILED.                    
+[09/17 04:29:49     64s] ERROR     IMPVFW-405           1  There is no specified end cap cell type ...
+[09/17 04:29:49     64s] WARNING   IMPVFW-5             1  %s is not completed.                     
+[09/17 04:29:49     64s] WARNING   IMPOPT-801           1  Genus executable not found in PATH%s. In...
+[09/17 04:29:49     64s] ERROR     IMPTR-2101           2  Layer %s: Pitch=%dx%d is still less than...
+[09/17 04:29:49     64s] WARNING   IMPTR-2104           4  Layer %s: Pitch=%d is less than min widt...
+[09/17 04:29:49     64s] WARNING   IMPTR-2108           2  For layer M%d, the gaps of %d out of %d ...
+[09/17 04:29:49     64s] *** Message Summary: 76 warning(s), 23 error(s)
+[09/17 04:29:49     64s] 
+[09/17 04:29:49     64s] --- Ending "Innovus" (totcpu=0:01:05, real=0:02:37, mem=9382.0M) ---
